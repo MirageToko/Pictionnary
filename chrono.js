@@ -1,5 +1,5 @@
-function GestionDuTemps(n){
+function WaitSeconds(n){
     return new Promise(function(resolve){
-        setTimeout(resolve,(1 / n) * 1000);
+        setTimeout(resolve, n*1000);
     });
 }
